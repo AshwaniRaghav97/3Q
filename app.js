@@ -1,2 +1,7 @@
-console.log("Hello, World!");
-console.log("This is a simple Node.js application.");
+let obj ={
+  name: "John",
+  age: 30,
+  city: "New York"
+}
+console.log(obj);
+console.log(process.argv);
