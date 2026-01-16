@@ -1,7 +1,14 @@
-let obj ={
-  name: "John",
-  age: 30,
-  city: "New York"
+function sum(a,b){
+    return a + b;
 }
-console.log(obj);
-console.log(process.argv);
+
+function mul(a,b){
+    return a * b;
+}
+// let s = sum(2,3);
+// let m = mul(4,5);
+// console.log("Sum:", s);
+// console.log("Multiplication:", m);
+
+module.exports ={sum,mul};
+
