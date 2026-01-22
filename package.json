@@ -1,5 +1,24 @@
 {
+  "name": "collage",
+  "version": "1.0.0",
+  "description": "\"this is collage purpuse\"",
+  "homepage": "https://github.com/AshwaniRaghav97/3Q#readme",
+  "bugs": {
+    "url": "https://github.com/AshwaniRaghav97/3Q/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AshwaniRaghav97/3Q.git"
+  },
+  "license": "ISC",
+  "author": "ashwani",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
+    "express": "^5.2.1",
     "nodemon": "^3.1.11"
   }
 }
