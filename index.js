@@ -9,7 +9,7 @@ app.get('/',(req,res)=>{
 });
 
 app.get('/login',(req,res)=>{
-    res.send('This is the login page');
+    res.send('This is the login page')
 });
 
 app.get('/register',(req,res)=>{
