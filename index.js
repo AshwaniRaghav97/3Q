@@ -3,9 +3,26 @@ const app = express();
 
 
 app.set('view engine','ejs');
+let obj = {
+    id : 1212
+}
+let student =[
+    {
+        name : 'John',
+        age : 22
+    },
+    {
+        name : 'Doe',
+        age : 23
+    },
+    {
+        name : 'Smith',
+        age : 21
+    }
 
+];
 app.get('/',(req,res)=>{
-    res.render('index');
+    res.render('index',{obj:obj,student:student});
 });
 
 app.get('/login',(req,res)=>{
