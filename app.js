@@ -6,7 +6,7 @@ console.log(url.host);
 console.log(url.pathname);
 console.log(url.searchParams.get('name'));
 console.log(url.searchParams.get('age'));
-console.log(url.href);
+// console.log(url.href);
 
 
 
