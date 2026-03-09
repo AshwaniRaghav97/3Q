@@ -7,6 +7,8 @@ let server = http.createServer((req, res) => {
         if(error) throw error;
         res.end(data);
     })
-})
+}).listen(3000,()=>{
+    console.log("Server is running on port 3000");
+});
 
 
